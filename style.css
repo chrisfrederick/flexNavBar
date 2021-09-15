@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    background-color: grey;
+    width: auto;
+    
+    justify-content: space-between;
+    
+}
+.nav-title{
+    width: 200px;
+    margin-left: 10px;
+
+}
+.nav-links{
+    display: flex;
+    width: 600px;
+    justify-content: right;
+    align-items: center;
+}
+.nav-links button{
+    background-color: hotpink;
+    width: 100px;
+    height: 40px;
+    margin-right: 2px;
+    
+}
+
+li{
+    margin-right: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+*{
+    font-family: cursive;
+}
+
+
